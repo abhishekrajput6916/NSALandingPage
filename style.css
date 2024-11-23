@@ -83,13 +83,18 @@ header {
 
 .financial-word span {
   width: 560px;
-  height: 100px;
+  height: 128px;
   border-top: 4px solid #EE2737;
   position: absolute;
-  transform: translateX(-35%) translateY(48%);
+  transform: translateX(-29%) translateY(48%);
   border-radius: 50%/100px 100px 0 0;
 }
-
+@media (max-width:1024px) {
+  .financial-word span{
+    transform: translateX(-35%) translateY(48%);
+    height: 110px;
+  }  
+}
 .bg-y {
   background-color: #F8EC34;
 }
@@ -297,6 +302,10 @@ header {
   padding: 15px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  color: #1E1E1E;
+}
+.review p span{
+ background-color: #F8EC34;
 }
 
 .reviews img{
