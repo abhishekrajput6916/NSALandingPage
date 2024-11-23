@@ -475,6 +475,9 @@ header {
   font-size: 1rem;
   width: 180px;
 }
+.date-box .register-btn{
+  max-height: 60px !important;
+}
 .date-box{
   position: relative;
 }
@@ -490,6 +493,9 @@ header {
   display: block;
   font-weight: bold;
   font-size: 1.5rem;
+}
+.webinar{
+  align-items: center;
 }
 
 .register-button {
