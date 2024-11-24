@@ -331,7 +331,9 @@ header {
     width: 100%;
     height: min-content;
   }
-
+  .review2:hover {
+    transform: scale(102%);
+  }
   .review2 {
     position: static;
     transform: none;
