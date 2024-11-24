@@ -304,6 +304,7 @@ header {
   transform: scale(102%) translateY(-50%);
 }
 .review1:hover,.review3:hover {
+  z-index: 2;
   transform: scale(102%) ;
   transition: linear .1s;
 }
