@@ -38,6 +38,10 @@ header {
   max-width: 10rem;
 }
 
+.navbar-toggler{
+  padding: 12px !important;
+  height: min-content !important;
+}
 .navbar {
   /* d-flex justify-content-between width-100 */
   display: flex;
